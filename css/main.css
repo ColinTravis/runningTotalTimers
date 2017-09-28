@@ -1,0 +1,32 @@
+html,body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.container {
+  background-color: #0f0c96;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  /*color: #f9c6ba;*/
+  color: #9bf3a9;
+  font-weight: 700;
+  font-size: 16pt;
+  width: 35%;
+  min-width: 300px;
+  margin: 0 30px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  white-space: nowrap;
+}
